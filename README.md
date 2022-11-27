@@ -1,5 +1,7 @@
 # How to run the app
 
+clone the git repository and run the below script inside the directory
+
 ```
 docker build . -t ii && docker run -p 8000:8000 -d ii
 ```
